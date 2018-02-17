@@ -3,7 +3,7 @@
     This file is for all the PID loops that will be used for autonomous.
     Included: Lift Slave PID, Straight Driving PID, Turning PID.
 */
-#include "main.h"
+#include "pid.h"
 #include <math.h>
 //Variables
 int setpoint; int degrees; int degreesL; int degreesR; int power; int error;
